@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  background-color: rgba(23, 22, 25, 0.812);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  padding: 10px;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
+}
+.card {
+  width: 350px;
+  border: 0.5px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 5px;
+}
+.relationship {
+  color: #00000050;
+}
+#phone {
+  color: rgb(55, 55, 143);
+}
+#btn {
+  background-color: rgba(61, 168, 245, 0.478);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
